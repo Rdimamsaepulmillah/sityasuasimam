@@ -1,0 +1,451 @@
+body {
+  font-family: "Monsterrat", "Segeo UI", Tahoma, Geneva, verdana, sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+#topbar {
+  background-color: #15477a;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+}
+
+.top-contact {
+  list-style-type: none;
+}
+
+#topbar li {
+  display: inline-block;
+  list-style: none;
+}
+
+#topbar li a {
+  color: #fff;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+#topbar li a:hover {
+  color: aqua;
+}
+
+#topbar .sosmed li a {
+  padding: 0 5px;
+}
+
+#topbar .sosmed li a i {
+  color: #fff;
+}
+
+.top-contact li a i {
+  margin-right: 5px;
+  color: #f2c808;
+}
+
+/* css untuk header */
+
+header {
+  padding: 20px 0;
+}
+.brand {
+  display: flex;
+}
+
+.brand img {
+  margin-right: 20px;
+}
+
+.brand .brand-name h1 {
+  font-size: 25px;
+  color: #15477a;
+  text-transform: uppercase;
+}
+
+.brand .brand-name h3 {
+  font-size: 18px;
+  font-family: Releway, "Segeo UI", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #888888;
+}
+
+.pembungkus-searchbox {
+  display: flex;
+  align-items: center;
+}
+
+.searchbox {
+  width: 100%;
+}
+
+.btn.btn-utama {
+  background-color: #15477a;
+  color: #f2c808;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* Css untuk menu / navbar */
+
+.navbar {
+  padding: 0;
+  border-bottom: 5px solid #f2c808;
+}
+
+.nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+}
+
+.bg-biru {
+  background-color: #15477a !important;
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  padding: 15px 20px;
+  display: inline-block;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+
+.active {
+  background-color: #f2c808;
+  color: #15477a;
+}
+
+li.nav-item.active a {
+  color: #15477a;
+}
+
+/* css untuk section sambutan */
+
+#sambutan {
+  margin: 60px 0;
+}
+
+#sambutan h2 {
+  color: #15477a;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+#sambutan h3 {
+  color: #15477a;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+#sambutan p {
+  font-size: 14px;
+  font-family: Raleway, sans-serif;
+  font-size: 500;
+  line-height: 2;
+}
+
+/*-- css untuk section prestasis --*/
+
+#prestasi {
+  min-height: 250px;
+}
+
+#prestasi .col-item-kanan {
+  padding: 20px 30px 20px 20px;
+}
+
+.section-item {
+  margin: 70px 0;
+  box-shadow: 0 0 25px #ddd;
+  min-height: 260px;
+  overflow: hidden;
+}
+
+.section-item img {
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+  max-height: 100%;
+}
+
+.section-title {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.section-title h2 {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #15477a;
+  font-weight: 600;
+}
+
+.section-title h2::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: #f2c808;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section-item-title {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+.section-item-title h3 {
+  font-size: 18px;
+  color: #15477a;
+  line-height: 25px;
+  font-weight: 600;
+  padding-right: 40px;
+}
+
+.section-item-title span {
+  font-size: 12px;
+}
+
+.section-item-title span i {
+  margin-right: 5px;
+}
+
+.section-item-title span:first-of-type {
+  margin-right: 15px;
+}
+
+.section-item-body {
+  font-size: 12px;
+  line-height: 25px;
+  color: #666;
+}
+
+/* CSS untuk tombol selengkapnya */
+section {
+  margin: 80px;
+}
+
+.tombol-selengkapnya {
+  text-align: center;
+}
+
+.btn.btn-more {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #15477a;
+  text-align: center;
+  display: inline-block;
+  border: 2px solid #15477a;
+  border-radius: 0;
+  padding: 10px 30px;
+}
+
+/* CSS untuk footer */
+
+footer {
+  color: #fff;
+  background-color: #15477a;
+  padding: 80px 0 0;
+}
+
+footer .footer-col:first-of-type {
+  padding-right: 30px;
+}
+
+footer .brand {
+  display: flex;
+}
+
+footer .brand img {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+
+footer .brand h1 {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+footer .tentang {
+  font-size: 14px;
+  line-height: 26px;
+  padding-bottom: 30px;
+  border-bottom: 1px dashed rgba(255, 255, 0.5);
+}
+
+footer .sosmed {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer .sosmed li {
+  display: inline-block;
+  margin: right 20px;
+}
+
+footer .sosmed li a {
+  color: #fff;
+  border: 1px solid rgba(255, 255, 0.5);
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+footer .sosmed li a:hover {
+  color: #c7c7c7;
+}
+
+.footer-col h2 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.footer-col .alamat {
+  font-size: 14px;
+  line-height: 25px;
+  padding: 10px 0;
+}
+
+.footer-copyright .container {
+  border-top: 1px solid rgba(242, 242, 242, 0.25);
+  padding: 10px 0;
+}
+
+.footer-copyright {
+  margin-top: 60px;
+}
+
+.footer-copyright h6 {
+  font-size: 16px;
+  color: #cecece;
+  font-weight: 300;
+  font-family: "sagoe UI", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-copyright h6 a {
+  color: inherit;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px; /* Ruang antara gambar dan teks */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.facility {
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.photo {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.photo:hover img {
+  transform: scale(1.1);
+}
+
+.video-gallery {
+  display: flex;
+  overflow-x: auto; /* Untuk membuat scrollbar jika lebar konten melebihi lebar layar */
+  gap: 20px;
+}
+
+.video {
+  text-align: center;
+}
+
+video {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+.agenda {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 0 auto; /* Memindahkan tabel ke tengah */
+}
+
+.agenda th,
+.agenda td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.agenda th {
+  background-color: #f2f2f2;
+}
+
+.agenda td {
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    visibility: hidden;
+  }
+}
